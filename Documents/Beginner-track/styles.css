@@ -1,0 +1,26 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+h1 a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: #3498db;
+}
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+span {
+    font-weight: bold;
+}
+/* point-text라는 별명을 가진 애만 불러서 굵게 만들기 */
+.point-text {
+    font-weight: bold;
+    color: #3498db; /* 예쁜 파란색 */
+}
+
+/* warning-text라는 별명을 가진 애는 빨간색으로! */
+.warning-text {
+    color: red;
+    text-decoration: underline; /* 밑줄 추가 */
+}
